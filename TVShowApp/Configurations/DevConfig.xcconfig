@@ -1,0 +1,12 @@
+//
+//  DevConfig.xcconfig
+//  TVShowApp
+//
+//  Created by Faisal Shahzad on 13/04/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+TMDB_API = ecef14eac236a5d4ec6ac3a4a4761e8f
+BASE_URL = https:\/\/api.themoviedb.org

@@ -1,0 +1,60 @@
+{
+  "version" : "2020.11.0",
+  "images" : [
+    {
+      "size" : "20x20",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "filename" : "icon-40.png"
+    },
+    {
+      "size" : "20x20",
+      "scale" : "3x",
+      "filename" : "icon-60.png",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "icon-58.png",
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "icon-87.png",
+      "scale" : "3x",
+      "size" : "29x29",
+      "idiom" : "iphone"
+    },
+    {
+      "size" : "40x40",
+      "scale" : "2x",
+      "filename" : "icon-80.png",
+      "idiom" : "iphone"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "40x40",
+      "filename" : "icon-120.png"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "filename" : "icon-120.png",
+      "size" : "60x60"
+    },
+    {
+      "scale" : "3x",
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "icon-180.png"
+    },
+    {
+      "idiom" : "ios-marketing",
+      "filename" : "icon-1024.png",
+      "size" : "1024x1024",
+      "scale" : "1x"
+    }
+  ],
+  "author" : "Iconizer"
+}
