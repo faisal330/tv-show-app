@@ -39,4 +39,6 @@ struct SeriesInfo : Codable {
 	let type : String?
 	let vote_average : Double?
 	let vote_count : Int?
+    
+    
 }

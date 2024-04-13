@@ -9,8 +9,15 @@ target 'TVShowApp' do
   pod 'Kingfisher'
   
   # Rest API Framework for handling all the REST API calls.
-   pod 'FSNetworkManager', :path => '../FSNetworkManager'
-  #pod 'FSNetworkManager'
+  pod 'FSNetworkManager'
+  
+  target 'TVShowAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
+  target 'TVShowAppUITests' do
+    # Pods for testing
+  end
 
 end

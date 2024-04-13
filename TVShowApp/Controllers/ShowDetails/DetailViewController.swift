@@ -44,6 +44,8 @@ class DetailViewController: BaseViewController {
         self.fetchSeriesDetail(id: "71712")
 //        self.fetchSeriesDetail(id: "62852")
         
+        
+        
     }
     
     //MARK: IBActions
