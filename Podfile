@@ -7,6 +7,10 @@ target 'TVShowApp' do
 
   # Pods for TVShowApp
   pod 'Kingfisher'
+  
+  # Rest API Framework for handling all the REST API calls.
+   pod 'FSNetworkManager', :path => '../FSNetworkManager'
+  #pod 'FSNetworkManager'
 
 
 end

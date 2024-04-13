@@ -10,3 +10,6 @@
 
 TMDB_API = ecef14eac236a5d4ec6ac3a4a4761e8f
 BASE_URL = https:\/\/api.themoviedb.org
+BASE_IMAGE_URL = https:\/\/image.tmdb.org/t/p/original
+
+VIDEO_URL = https:\/\/commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4

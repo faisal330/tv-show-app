@@ -31,7 +31,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6cX-F9-cOY">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="320"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-O0-6Fg">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_banner_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-O0-6Fg">
                                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="320"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="320" id="wV4-n5-bcr"/>
@@ -52,43 +52,43 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XA3-xK-k7Y">
-                                                                <rect key="frame" x="14" y="233" width="365" height="72"/>
+                                                                <rect key="frame" x="14" y="237.66666666666666" width="365" height="67.333333333333343"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQ5-qL-PcG">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="365" height="52.666666666666664"/>
-                                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="40"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="30" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQ5-qL-PcG">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="365" height="48"/>
+                                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YDo-VO-MN3">
-                                                                        <rect key="frame" x="0.0" y="52.666666666666686" width="365" height="19.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="48.000000000000028" width="365" height="19.333333333333329"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="251" text="2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFT-zj-QZ6">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33" height="19.333333333333332"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="251" text="1960" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFT-zj-QZ6">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="35" height="19.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                                 <color key="textColor" name="Color#919191"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="258" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIf-p4-Vhj">
-                                                                                <rect key="frame" x="41" y="0.0" width="4.6666666666666643" height="19.333333333333332"/>
+                                                                                <rect key="frame" x="43" y="0.0" width="4.6666666666666643" height="19.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                                 <color key="textColor" name="Color#919191"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="256" verticalHuggingPriority="251" text="3 Seasons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAl-VA-4RW">
-                                                                                <rect key="frame" x="53.666666666666679" y="0.0" width="70.333333333333314" height="19.333333333333332"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="256" verticalHuggingPriority="251" text="Seasons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAl-VA-4RW">
+                                                                                <rect key="frame" x="55.666666666666671" y="0.0" width="57.666666666666671" height="19.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                                 <color key="textColor" name="Color#919191"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="254" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlj-8i-aCY">
-                                                                                <rect key="frame" x="132" y="0.0" width="4.6666666666666572" height="19.333333333333332"/>
+                                                                                <rect key="frame" x="121.33333333333334" y="0.0" width="4.6666666666666714" height="19.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                                 <color key="textColor" name="Color#919191"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccN-le-Otk">
-                                                                                <rect key="frame" x="144.66666666666663" y="0.0" width="220.33333333333337" height="19.333333333333332"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccN-le-Otk">
+                                                                                <rect key="frame" x="134" y="0.0" width="231" height="19.333333333333332"/>
                                                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                                 <color key="textColor" name="Color#919191"/>
                                                                                 <nil key="highlightedColor"/>
@@ -130,6 +130,9 @@
                                                                         <real key="value" value="4"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="didTapPlayBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hsD-Zx-Xt5"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAa-M1-Goj">
                                                                 <rect key="frame" x="192.66666666666663" y="0.0" width="172.33333333333337" height="50"/>
@@ -146,6 +149,9 @@
                                                                         <real key="value" value="4"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="didTapTrailerBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YXW-6v-ifA"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -157,7 +163,7 @@
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tn1-4A-Xd0">
                                                                 <rect key="frame" x="0.0" y="0.0" width="365" height="57.333333333333336"/>
-                                                                <string key="text">A complex drama about power politics in the world of New York high finance. Shrewd, savvy U.S. Attorney Chuck Rhoades and the brilliant, ambitious hedge fund king Bobby Axe Axelrod are on an explosive collision course, with each using all of his considerable smarts, power and influence to outmaneuver the other. The stakes are in the billions in this timely, provocative series.</string>
+                                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat, odio et rutrum accumsan, nisl leo mattis magna, a pharetra nibh erat vitae nibh. Donec porta vestibulum ligula, nec eleifend ex interdum quis.</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <color key="textColor" name="Color#858586"/>
                                                                 <nil key="highlightedColor"/>
@@ -422,8 +428,13 @@
                         <outlet property="gradientView" destination="4rf-Fg-SZb" id="RRs-PX-Vgh"/>
                         <outlet property="navBarView" destination="Vak-de-gay" id="ZjL-u2-KVC"/>
                         <outlet property="overviewLabel" destination="tn1-4A-Xd0" id="M5B-vp-zCh"/>
+                        <outlet property="ratingSystemLabel" destination="ccN-le-Otk" id="qFl-ac-PwO"/>
                         <outlet property="readMoreBtn" destination="8Q2-U7-d6l" id="3H4-D7-BAn"/>
+                        <outlet property="releaseYearLabel" destination="RFT-zj-QZ6" id="0nl-Hj-sGe"/>
                         <outlet property="scrollView" destination="eX1-uU-rsJ" id="Yfp-7q-9IH"/>
+                        <outlet property="seasonCountLabel" destination="pAl-VA-4RW" id="QuQ-Tv-JBC"/>
+                        <outlet property="seriesBannerImageView" destination="dGk-O0-6Fg" id="7dR-gb-oBI"/>
+                        <outlet property="seriesTitleLabel" destination="EQ5-qL-PcG" id="4Zb-xN-uK9"/>
                         <outlet property="tableView" destination="B5F-v9-uEc" id="YWu-V6-O3a"/>
                     </connections>
                 </viewController>
@@ -433,10 +444,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="banner" width="683" height="433"/>
         <image name="hand.thumbsdown" catalog="system" width="123" height="128"/>
         <image name="hand.thumbsup" catalog="system" width="123" height="128"/>
         <image name="ic_arrow" width="128" height="128"/>
+        <image name="ic_banner_placeholder" width="800" height="600"/>
         <image name="ic_cast" width="128" height="128"/>
         <image name="ic_search" width="128" height="128"/>
         <image name="play.fill" catalog="system" width="117" height="128"/>

@@ -21,7 +21,7 @@ class MenuBarCollectionViewCell: UICollectionViewCell {
     }
     
     func configure(_ season: Season?) {
-        itemLabel.text = "SEASON \(season?.episode_number ?? 1)"
+        itemLabel.text = "SEASON \(season?.season_number ?? 1)"
         toggleCellSelection(season?.isSelected ?? false)
     }
     

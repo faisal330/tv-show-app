@@ -21,4 +21,6 @@ class ConfigurationManager: NSObject {
 enum ConfigurationKey: String {
     case baseURL = "baseURL"
     case tmdbAPI = "tmdbAPI"
+    case imageURL = "imageURL"
+    case videoURL = "videoURL"
 }
