@@ -12,12 +12,15 @@ import FSNetworkManager
 struct SeriesService {
     static let shared = SeriesService()
     private init() { }
+
+    var networkManager: GetRequestProtocol = NetworkManager.shared
+
     
     func getSeriesDetail(id: String, onComplete: @escaping ((Result<SeriesInfo, AppError>)->Void)) {
         
         let urlString = URLHelper.shared.getURLString(with: URI.Series.getDetail.rawValue).replacingOccurrences(of: ParamKeys.SERIES_ID, with: id)
 
-        NetworkManager.shared.sendGetRequest(urlString) { (data, response, error, request) in
+        networkManager.sendGetRequest(urlString, params: [:], headers: [:]) { (data, response, error, request) in
             
             guard APIErrorHandler.shared.handleError(data: data, response: response, error: error, request: request, onComplete: onComplete) else { return }
             
@@ -30,7 +33,7 @@ struct SeriesService {
         
         let urlString = URLHelper.shared.getURLString(with: URI.Series.getSeasonDetail.rawValue).replaceOccurrences(with: [ParamKeys.SERIES_ID: seriesId, ParamKeys.SEASON_NUM: seasonNo])
 
-        NetworkManager.shared.sendGetRequest(urlString) { (data, response, error, request) in
+        networkManager.sendGetRequest(urlString, params: [:], headers: [:]) { (data, response, error, request) in
             
             guard APIErrorHandler.shared.handleError(data: data, response: response, error: error, request: request, onComplete: onComplete) else { return }
             

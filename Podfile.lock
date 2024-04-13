@@ -1,23 +1,20 @@
 PODS:
-  - FSNetworkManager (1.0.1)
+  - FSNetworkManager (1.1.0)
   - Kingfisher (7.10.1)
 
 DEPENDENCIES:
-  - FSNetworkManager (from `../FSNetworkManager`)
+  - FSNetworkManager
   - Kingfisher
 
 SPEC REPOS:
   trunk:
+    - FSNetworkManager
     - Kingfisher
 
-EXTERNAL SOURCES:
-  FSNetworkManager:
-    :path: "../FSNetworkManager"
-
 SPEC CHECKSUMS:
-  FSNetworkManager: 99df5fa4c9bc9485e50656158032a4408bf17f6b
+  FSNetworkManager: 5b025f96d4081173f8869e5ac9d09d52cee3913f
   Kingfisher: bc5abe80a8e0144537ef1dd5a0b2621b04f7f439
 
-PODFILE CHECKSUM: ddf9d65b97f1a17723627d8331d0802f9d2f4edc
+PODFILE CHECKSUM: ff3034fa13cfc6f08994e58d9c25de03b5a4c731
 
 COCOAPODS: 1.14.3
