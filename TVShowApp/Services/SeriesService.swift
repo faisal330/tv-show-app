@@ -13,7 +13,7 @@ struct SeriesService {
     static let shared = SeriesService()
     private init() { }
 
-    var networkManager: GetRequestProtocol = NetworkManager.shared
+    var networkManager: RequestProtocol = NetworkManager.shared
 
     
     func getSeriesDetail(id: String, onComplete: @escaping ((Result<SeriesInfo, AppError>)->Void)) {

@@ -9,25 +9,8 @@ import XCTest
 import FSNetworkManager
 @testable import TVShowApp
 
-//class MockNetworkManager: GetRequestProtocol {
-//    
-//    var capturedURL: String?
-//    var capturedParams: [String: Any]?
-//    var capturedHeaders: [String: Any]?
-//    var shouldReturnData: Data?
-//    var shouldReturnResponse: URLResponse?
-//    var shouldReturnError: Error?
-//    
-//    func sendGetRequest(_ url: String, params: [String : Any], headers: [String : Any], onComplete: @escaping (Data?, URLResponse?, Error?, URLRequest?) -> Void) {
-//        capturedURL = url
-//        capturedParams = params
-//        capturedHeaders = headers
-//        onComplete(shouldReturnData, shouldReturnResponse, shouldReturnError, nil)
-//
-//    }
-//}
 
-class MockNetworkManager: GetRequestProtocol {
+class MockNetworkManager: RequestProtocol {
     var shouldThrowError = false
     
     func sendGetRequest(_ url: String, params: [String : Any], headers: [String : Any], onComplete: @escaping completionHandler) {
@@ -38,5 +21,9 @@ class MockNetworkManager: GetRequestProtocol {
         let mockResponse = HTTPURLResponse(url: URL(string: "mockURL")!, statusCode: shouldThrowError ? 404 : 200, httpVersion: nil, headerFields: nil)
         
         onComplete(shouldThrowError ? nil : responseData, mockResponse, nil, nil)
+    }
+    
+    func sendRequest(method: HTTPMethod, _ url: String, body: [String : Any], headers: [String : Any], params: [String : Any], onComplete: @escaping completionHandler) {
+        
     }
 }
